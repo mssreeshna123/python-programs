@@ -1,0 +1,21 @@
+# x=open("f1.txt","x")
+y=open("f1.txt","w")
+y.write("good morning")
+y.close()
+y=open("f1.txt","r")
+z=y.read()
+y.close()
+# x=open("f2.txt","x")
+a=open("f2.txt","w")
+a.write("have a nice day")
+a.close()
+a=open("f2.txt","r")
+b=a.read()
+a.close()
+# x=open("f3.txt","x")
+c=open("f3.txt","w")
+c.write(z)
+c.write(b)
+
+
+

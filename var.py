@@ -1,0 +1,13 @@
+print("hello")
+x=6
+y="hi"
+print(x)
+print(y)
+fruits=["apple","mango","grape",]
+x=fruits
+print(x)
+a=8
+b="world"
+print(type(a))
+print(type(b))
+x=7
